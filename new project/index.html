@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/new project/index.css">
+</head>
+<body>
+<div class="contaner">
+    <div class="navbar">
+        <img src="/new project/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul id="list">
+                <li><a href="">game control</a></li>
+                <li><a href="">vr accessorise</a></li>
+                <li><a href="">media remotes</a></li>
+                <li><a href="">other</a></li>
+            </ul>
+        </nav>
+        <img src="/new project/menu.png" class="menu" onclick="togglemenu()">
+        
+    </div>
+    <div class="row">
+        <div class="col1">
+            <h2>ps4 v2<br> dualshock 4</h2>
+            <h3>wireless controller for playstation 4 </h3>
+            <h4>$50.67</h4>
+            <button type="button">buy now<img src="/new project/arrow.png"></button>
+        </div>
+        <div class="col2">
+            <img src="/new project/controller.png" class="product">
+            <div class="color-box"></div>
+            <div class="add-btn">
+                <img src="/new project/add.png" >
+                <p><small>add to cart</small></p>
+            </div>
+        </div>
+    </div>
+<div class="social">
+     <img src="/new project/fb.png">
+     <img src="/new project/tw.png" >
+     <img src="/new project/ig.png" >
+
+</div>
+</div>
+<script>
+    var list = document.getElementById("list");
+    list.style.maxHeight = "0px";
+    function togglemenu(){
+        if(list.style.maxHeight=="0px"){
+            list.style.maxHeight = "130px";
+        }
+        else{
+            list.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+</body>
+</html>
